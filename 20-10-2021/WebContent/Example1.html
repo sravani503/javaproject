@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+
+class Car
+{
+	constructor(carNo, carColor, carName, carBrand)
+	{
+		this.carNo=carNo;
+		this.carColor=carColor;
+		this.carName=carName;
+		this.carBrand=carBrand;
+	}
+getCarInfo()
+ {
+       document.write(this.carNo+"<br>");
+       document.write(this.carColor+"<br>");
+       document.write(this.carName+"<br>");
+       document.write(this.carBrand+"<br>");
+  }
+}
+var hundai = new Car("AP 30 2020", "black" , "audi",4444444);
+hundai.getCarInfo();
+
+</script>
+</body>
+</html>
